@@ -1,9 +1,10 @@
-id: example
-name: Example Dojo
-type: example
+id: greyhats
+name: Grey Hats at UH Manoa
+type: 
 award:
-  emoji: 😀
+  emoji: 🧚
 image: pwncollege/challenge-simple
+
 modules:
   - id: hello
   - id: world
