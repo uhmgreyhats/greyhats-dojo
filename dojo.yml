@@ -1,9 +1,19 @@
 id: greyhats
 name: Grey Hats at UH Manoa
 award:
-  emoji: 🧚
+  emoji: 🧚‍♀️
 image: pwncollege/challenge-simple
 
 modules:
-  - id: hello
-  - id: world
+- id: "hello"
+- id: "paths"
+- id: "commands"
+- id: "man"
+- id: "globbing"
+- id: "piping"
+- id: "variables"
+- id: "processes"
+- id: "permissions"
+- id: "users"
+- id: "chaining"
+- id: "path"
