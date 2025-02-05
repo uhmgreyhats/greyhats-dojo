@@ -5,15 +5,39 @@ award:
 image: pwncollege/challenge-simple
 
 modules:
-- id: "hello"
-- id: "paths"
-- id: "commands"
-- id: "man"
-- id: "globbing"
-- id: "piping"
-- id: "variables"
-- id: "processes"
-- id: "permissions"
-- id: "users"
-- id: "chaining"
-- id: "path"
+- import:
+    dojo: linux-luminarium
+    module: hello
+- import:
+    dojo: linux-luminarium
+    module: paths
+- import:
+    dojo: linux-luminarium
+    module: commands
+- import:
+    dojo: linux-luminarium
+    module: man
+- import:
+    dojo: linux-luminarium
+    module: globbing
+- import:
+    dojo: linux-luminarium
+    module: piping
+- import:
+    dojo: linux-luminarium
+    module: variables
+- import:
+    dojo: linux-luminarium
+    module: processes
+- import:
+    dojo: linux-luminarium
+    module: permissions
+- import:
+    dojo: linux-luminarium
+    module: users
+- import:
+    dojo: linux-luminarium
+    module: chaining
+- import:
+    dojo: linux-luminarium
+    module: path
