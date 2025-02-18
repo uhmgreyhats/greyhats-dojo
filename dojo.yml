@@ -1,10 +1,13 @@
 id: greyhats
+
 name: Grey Hats at UH Manoa
 award:
   emoji: 🧚
 image: pwncollege/challenge-simple
 
+
 modules:
+
 - import:
     dojo: linux-luminarium
     module: hello
@@ -41,3 +44,11 @@ modules:
 - import:
     dojo: linux-luminarium
     module: path
+
+
+- import:
+    dojo: fundamentals
+    module: data-dealings
+- import:
+    dojo: fundamentals
+    module: talking-web
