@@ -9,7 +9,7 @@ image: pwncollege/challenge-simple
 modules:
 
 - import:
-    dojo: program-exploitation
+    dojo: program-security
     module: reverse-engineering
   challenges:
     - import:
