@@ -11,15 +11,6 @@ modules:
 - import:
     dojo: program-security
     module: reverse-engineering
-    challenges:
-    - import:
-        challenge: level-3-0
-    - import:
-        challenge: level-3-1
-    - import:
-        challenge: level-6-0
-    - import:
-        challenge: level-6-1
 
 
 
